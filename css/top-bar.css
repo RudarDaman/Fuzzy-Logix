@@ -109,10 +109,14 @@
   display: none;
   font-size:10%;
 }
-#cssmenu ul li.active a {
-  color: #c1120c;
+#cssmenu ul li#active a {
+  color: #fff;
 }
-#cssmenu ul li.active a:before {
+
+#cssmenu ul li a#active {
+  color: #fff;
+}
+#cssmenu ul li a:before#active {
   width: 100%;
 }
 #cssmenu.align-right li.last > a:after,

@@ -7,6 +7,12 @@ a {
   text-decoration: none;
   transition-duration: .3s;
 }
+.content{
+	padding:0em 2em;
+}
+.shortcuts{
+	
+}
 .logo{
   float: left;
   font-family: Open Sans Condensed, sans-serif;
@@ -46,6 +52,12 @@ a {
 .top-bar .top-menu li.active a,
 .top-bar .top-menu li.active a:hover {
   background: #3AB0FF;
+  color: #FFF;
+  font-weight: bold;
+}
+#active,
+#active a:hover {
+  background: #FE5B00;
   color: #FFF;
   font-weight: bold;
 }
@@ -128,4 +140,40 @@ a {
 .list li .genre {
   color: #999;
   font-size: 12px;
+}
+
+.content #more{
+	display:
+	text-decoration:line;
+	color: orange;
+}
+
+.alignment{
+	text-align:center;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.content #box img{
+	position:relative;
+	width:20%;	
+}
+
+#contact_block{
+	width:100%;
+}
+
+#box{
+	margin:1%;
+	width:30%;	
+	padding:0.2em;
+	font-size:1em;
+	border: 1px solid #000;
+	overflow:hidden;
+	text-align:center;
+	border-radius: 15px;
+	position:relative;
+	clear:none;
+	z-index:-1;
+	float:left;
 }
